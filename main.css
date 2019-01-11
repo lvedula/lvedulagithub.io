@@ -1,0 +1,156 @@
+html, body {
+	font-family: sans-serif;
+	margin-left:7px;
+	margin-right: 10px;
+	width: 80;
+	height: 80;
+	background-color: yellow;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.container img {
+	width: 80px;
+	height: 80px;
+	background-color: #f0ff00;
+}
+
+p {
+	max-width: 65%
+	min-width: 500px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.2rem;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	height: 200px;
+	width: 1100px;
+}
+
+div {
+	padding-right: 20px;
+	height: 100%;
+	width: 100%;
+}
+
+video {
+	background-color: #000000;
+	border: 2px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+}	
+
+.main {
+	padding-left: 15px;
+	min-width: 15%;
+	background-color: #00FF00;
+	max-width: 90%;
+	max-height: 80%;
+
+}
+
+.nav {
+	background-color: #FFA500;
+	max-height: 25%
+	min-width: 70px;
+	flex: 1;
+}
+
+.main-item {
+	margin: 30px;
+	border: 5px solid #FFF;
+	display: flex;
+	margin-right: 10px;
+}
+
+img {
+	padding: 1px;
+	border: 10px solid #021a40;
+	background-color: #ff0;
+}
+
+li {
+	display: block;
+}
+
+.second {
+	display: inline;
+}
+
+.contact-btn a {
+	float: right;
+	background-color: #af4cab;
+	font-size: 18px;
+	width: 100px;
+	text-align: center;
+	color: #0F0201;
+	margin-right: 30px;
+	padding: 8px 18px;
+	border: 1px solid #204156;
+	display: block;
+}
+
+.contact-btn a:active {
+	position: right;
+	bottom: 2px;
+}
+
+.contact-btn a:hover {
+	background-color: #2941f0;
+}
+
+.help-btn a {
+	float: right;
+	background-color: #af4cab;
+	font-size: 18px;
+	width: 100px;
+	text-align: center;
+	color: #0F0201;
+	margin-right: 30px;
+	padding: 8px 18px;
+	border: 1px solid #204156;
+}
+
+.help-btn a:active {
+	position: right;
+	bottom: 2px;
+}
+
+.help-btn a:hover {
+	background-color: #f07429;
+}
+
+.main a {
+	color: #FF00D4;
+	font-size: 20px;
+	text:bold
+	text-decoration: navy;
+	margin-left: 10px;
+}
+
+#footer {
+	color: red;
+	font-size: 24px;
+	text-align: center
+}
+
+footer .col-sm-8 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li img {
+	width: 80px;
+	height: 80px;
+}
